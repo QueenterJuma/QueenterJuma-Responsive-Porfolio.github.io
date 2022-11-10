@@ -516,14 +516,14 @@ button:active {
     width: 100%;
     height: 392px;    
   }
-
- /* .toggle-menu {
+  
+  .toggle-menu {
     display: none;
   }
   
   .top-nav {
     display: block;
-  }*/
+  }
 
   .description .desc {
     display: flex;
@@ -632,13 +632,13 @@ button:active {
     height: 392px;    
   }
 
-  /*.toggle-menu {
+  .toggle-menu {
     display: none;
   }
   
   .top-nav {
     display: block;
-  }*/
+  }
 
   .description .desc {
     display: flex;
