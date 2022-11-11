@@ -451,9 +451,9 @@ button:active {
   margin-left: -190px;
 }
 
-@media (min-width: 489px)  and (max-width: 767px) {
+@media (min-width: 489px) and (max-width: 767px) {
   .hero {
-    background-image: url("./image/Desktop.png");
+    background-image: url("./image/dec-intro.png");
   }
 
   .images {
@@ -568,7 +568,7 @@ button:active {
 
 @media (min-width: 768px) {
   .hero {
-    background-image: url("./image/Desktop.png");
+    background-image: url("./image/dec-intro.png");
   }
 
   .images {
@@ -624,7 +624,7 @@ button:active {
 
   .about {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
   }
 
   .info {
@@ -683,7 +683,17 @@ button:active {
 
   .top-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+  }
+
+  .real-me {
+    margin: 5em 18em 0;
+    width: 600px;
+  }
+
+  .my-social {
+    margin: 0 18em;
+    width: 600px;
   }
 }
