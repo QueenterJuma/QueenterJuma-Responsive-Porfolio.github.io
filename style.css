@@ -451,35 +451,35 @@ button:active {
   margin-left: -190px;
 }
 
-
-@media (min-width: 489px) and (max-width:767px) {
+@media (min-width: 489px) and (max-width: 767px) {
   .hero {
     background-image: url("./image/Desktop.png");
   }
-  
+
   .images {
     width: 544px;
-    height: 448px;}
-    
-    .plc-img1 {
-      background-image: url(./image/dec1.png);
-    }
-    
-    .plc-img2 {
-      background-image: url(./image/dec2.png);
-    }
+    height: 448px;
+  }
 
-    .plc-img {
-      background-image: url(./image/dec3.png);
-    }
+  .plc-img1 {
+    background-image: url(./image/dec1.png);
+  }
 
-    .plc-img4 {
-      background-image: url(./image/dec4.png);
-    }
+  .plc-img2 {
+    background-image: url(./image/dec2.png);
+  }
 
-    .f-contact {
-      background-image: url(./image/dec-form.png);
-    }
+  .plc-img {
+    background-image: url(./image/dec3.png);
+  }
+
+  .plc-img4 {
+    background-image: url(./image/dec4.png);
+  }
+
+  .f-contact {
+    background-image: url(./image/dec-form.png);
+  }
 
   .one,
   .four {
@@ -494,7 +494,7 @@ button:active {
     flex-direction: row-reverse;
     justify-content: space-around;
   }
-  
+
   .three {
     display: flex;
     flex-direction: row;
@@ -505,7 +505,7 @@ button:active {
     width: 544px;
     height: 465px;
   }
-  
+
   .about {
     display: flex;
     flex-direction: row;
@@ -514,13 +514,13 @@ button:active {
   .info {
     display: flex;
     width: 100%;
-    height: 392px;    
+    height: 392px;
   }
-  
+
   .toggle-menu {
     display: none;
   }
-  
+
   .top-nav {
     display: block;
   }
@@ -529,7 +529,7 @@ button:active {
     display: flex;
     flex-direction: row;
   }
-  
+
   .language {
     display: flex;
     flex-direction: column;
@@ -539,7 +539,6 @@ button:active {
     display: flex;
     gap: 10px;
     justify-content: flex-start;
-    
   }
 
   .dash {
@@ -556,7 +555,7 @@ button:active {
     justify-content: space-between;
     color: grey;
   }
-  
+
   .frame {
     height: 24px;
     line-height: 24px;
@@ -564,37 +563,37 @@ button:active {
     display: flex;
     align-items: center;
   }
-  
 }
 
 @media (min-width: 768px) {
   .hero {
     background-image: url("./image/Desktop.png");
   }
-  
+
   .images {
     width: 544px;
-    height: 448px;}
-    
-    .plc-img1 {
-      background-image: url(./image/dec1.png);
-    }
-    
-    .plc-img2 {
-      background-image: url(./image/dec2.png);
-    }
+    height: 448px;
+  }
 
-    .plc-img {
-      background-image: url(./image/dec3.png);
-    }
+  .plc-img1 {
+    background-image: url(./image/dec1.png);
+  }
 
-    .plc-img4 {
-      background-image: url(./image/dec4.png);
-    }
+  .plc-img2 {
+    background-image: url(./image/dec2.png);
+  }
 
-    .f-contact {
-      background-image: url(./image/dec-form.png);
-    }
+  .plc-img {
+    background-image: url(./image/dec3.png);
+  }
+
+  .plc-img4 {
+    background-image: url(./image/dec4.png);
+  }
+
+  .f-contact {
+    background-image: url(./image/dec-form.png);
+  }
 
   .one,
   .four {
@@ -609,7 +608,7 @@ button:active {
     flex-direction: row-reverse;
     justify-content: space-around;
   }
-  
+
   .three {
     display: flex;
     flex-direction: row;
@@ -620,7 +619,7 @@ button:active {
     width: 544px;
     height: 465px;
   }
-  
+
   .about {
     display: flex;
     flex-direction: row;
@@ -629,13 +628,13 @@ button:active {
   .info {
     display: flex;
     width: 100%;
-    height: 392px;    
+    height: 392px;
   }
 
   .toggle-menu {
     display: none;
   }
-  
+
   .top-nav {
     display: block;
   }
@@ -644,7 +643,7 @@ button:active {
     display: flex;
     flex-direction: row;
   }
-  
+
   .language {
     display: flex;
     flex-direction: column;
@@ -654,7 +653,6 @@ button:active {
     display: flex;
     gap: 10px;
     justify-content: flex-start;
-    
   }
 
   .dash {
@@ -671,7 +669,7 @@ button:active {
     justify-content: space-between;
     color: grey;
   }
-  
+
   .frame {
     height: 24px;
     line-height: 24px;
@@ -679,5 +677,4 @@ button:active {
     display: flex;
     align-items: center;
   }
-  }
-
+}
