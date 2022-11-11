@@ -451,7 +451,7 @@ button:active {
   margin-left: -190px;
 }
 
-@media (min-width: 489px) and (max-width: 767px) {
+@media (min-width: 489px)  and (max-width: 767px) {
   .hero {
     background-image: url("./image/Desktop.png");
   }
@@ -517,14 +517,6 @@ button:active {
     height: 392px;
   }
 
-  .toggle-menu {
-    display: none;
-  }
-
-  .top-nav {
-    display: block;
-  }
-
   .description .desc {
     display: flex;
     flex-direction: row;
@@ -563,6 +555,14 @@ button:active {
     color: #344563;
     display: flex;
     align-items: center;
+  }
+
+  .toggle-menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
   }
 }
 
@@ -619,6 +619,7 @@ button:active {
   .card-text {
     width: 544px;
     height: 465px;
+    margin-bottom: 10px;
   }
 
   .about {
@@ -630,14 +631,6 @@ button:active {
     display: flex;
     width: 100%;
     height: 392px;
-  }
-
-  .toggle-menu {
-    display: none;
-  }
-
-  .top-nav {
-    display: block;
   }
 
   .description .desc {
@@ -666,17 +659,31 @@ button:active {
     height: 320px;
   }
 
+  .frame {
+    height: 24px;
+    line-height: 24px;
+    color: #344563;
+    display: flex;
+    align-items: center;
+  }
+
   .arro {
     display: flex;
     justify-content: space-between;
     color: grey;
   }
 
-  .frame {
-    height: 24px;
-    line-height: 24px;
-    color: #344563;
+  .toggle-menu {
+    display: none;
+  }
+
+  .navigation {
     display: flex;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
   }
 }
