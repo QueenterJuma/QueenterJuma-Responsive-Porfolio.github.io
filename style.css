@@ -20,10 +20,6 @@
   flex-direction: column;
 }
 
-.space-between {
-  justify-content: space-between;
-}
-
 .top-nav {
   display: flex;
   justify-content: space-between;
