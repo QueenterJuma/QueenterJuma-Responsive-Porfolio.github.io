@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 **Clone the repository
 ```
-git clone https://github.com/QueenterJuma/Portfolio_1/pulls/2 
+git clone https://github.com/QueenterJuma/Portfolio_1 
 ```
 Navigate to the folder
 ```
@@ -38,9 +38,11 @@ git checkout branch_mobile-version**
 - GitHub:(https://github.com/QueenterJuma)
 - Twitter:(https://twitter.com/QueenJumah)
 - LinkedIn:(https://www.linkedin.com/in/queenter-juma-54a0b1222/)
--website:https://queenterjuma.github.io/QueenterJuma-Responsive-Porfolio.github.io/
-##Colaborator
--danielsafari143
+-website: https://queenterjuma.github.io/Responsive-Porfolio/
+
+## Colaborators
+- danielsafari143
+- [egichuhis](https://github.com/egichuhis)
 -Ilyassatlassi
 
 ## 🤝 Contributing
