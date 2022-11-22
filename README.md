@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 **Clone the repository
 ```
-git clone https://github.com/QueenterJuma/Portfolio_1/pulls/2 
+git clone https://github.com/QueenterJuma/Portfolio_1 
 ```
 Navigate to the folder
 ```
