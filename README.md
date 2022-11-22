@@ -43,6 +43,7 @@ git checkout branch_mobile-version**
 ## Colaborators
 - danielsafari143
 - [egichuhis](https://github.com/egichuhis)
+-Ilyassatlassi
 
 ## 🤝 Contributing
 
