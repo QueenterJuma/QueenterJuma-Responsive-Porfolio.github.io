@@ -198,10 +198,6 @@
 .hero {
   background-image: url("./image/mobile.png");
   background-repeat: no-repeat;
-  display: flex;
-  height: 600px;
-  flex-direction: column;
-  background-size: 100%;
 }
 
 .handles {
