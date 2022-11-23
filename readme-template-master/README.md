@@ -90,16 +90,12 @@ git checkout branch_mobile-version**
 - [egichuhis](https://github.com/egichuhis)
 -Ilyassatlassi
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing 
 
 Contributions, issues, and feature requests are welcome!
 
 ## Give a ⭐️ if you like this project! 
 
-
-<!-- LICENSE -->
 
 ## 📝 License 
 
