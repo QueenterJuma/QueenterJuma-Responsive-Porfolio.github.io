@@ -15,9 +15,10 @@ toggleMenu.addEventListener('click', () => {
 
 const reviewPage = document.querySelectorAll('.nav-item').length;
 for (let i = 0; i < reviewPage; i += 1) {
-  document.querySelectorAll('.nav-item')[i].addEventListener('click', () => {
+  let nav_items = document.querySelectorAll(".nav-item");
+  nav_items[i].addEventListener('click', () => {
     toggleMenu.classList.toggle('open');
     menuOpen = false;
     navigation.classList.toggle('open');
-  });
+   });
 }
