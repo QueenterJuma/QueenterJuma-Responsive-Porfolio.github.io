@@ -43,7 +43,7 @@
 ## 🛠 Built With 
 Major language
 -HTML
--CSS</a>
+-CSS
 -JavaScript
 
 Technology

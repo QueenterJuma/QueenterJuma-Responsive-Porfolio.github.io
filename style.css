@@ -430,7 +430,7 @@ button:active {
 }
 
 .valid-error {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #900;
@@ -695,5 +695,13 @@ button:active {
   .my-social {
     margin: 0 18em;
     width: 600px;
+  }
+
+  .msgerror {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #900;
+    display: none;
   }
 }
