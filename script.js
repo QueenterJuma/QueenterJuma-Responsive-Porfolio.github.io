@@ -30,3 +30,10 @@ form.addEventListener('submit', (e) => {
     validError.style.display = 'block';
   }
 });
+
+
+/*Local storage */
+const Name = document.querySelector('#name');
+const Email = document.querySelector('#email');
+const Text = document.querySelector('#text');
+form.addEventListener('submit')
