@@ -643,6 +643,23 @@ button:active {
   border-radius: 8px;
 }
 
+.popup-giticon {
+  width: 84px;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #6070FF;
+flex: none;
+order: 0;
+flex-grow: 0;
+} 
+
 .seelive-txt {
   width: 58px;
 height: 20px;
