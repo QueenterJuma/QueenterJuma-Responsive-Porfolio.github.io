@@ -36,4 +36,19 @@ form.addEventListener('submit', (e) => {
 const Name = document.querySelector('#name');
 const Email = document.querySelector('#email');
 const Text = document.querySelector('#text');
-form.addEventListener('submit')
+form.addEventListener('submit', () => {
+  const Data = {
+    Name: NameData.value,
+    Email: EmailData.value,
+    Text: TextData.value,
+  };
+  localStorage.setItem('data', JSON.stringify(Data));
+});
+
+const AutoFiller = localStorage.getItem(data);
+if (AutoFiller) {
+  const DataStored = JSON.parse(localStorage.getItem('data'));
+  NameData.value = DataStored.Name;
+  EmailData.value = DataStored.Email;
+  TextData.value = DataStored.Text;
+}
