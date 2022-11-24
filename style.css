@@ -434,7 +434,7 @@ button:active {
   font-size: 16px;
   line-height: 30px;
   color: #900;
-  
+  display: none;
 }
 
 .f-contact textarea {
