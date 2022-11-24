@@ -429,6 +429,14 @@ button:active {
   width: 327px;
 }
 
+.valid-error {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #900;
+  
+}
+
 .f-contact textarea {
   border: 1px solid #cfd8cf;
   border-radius: 8px;

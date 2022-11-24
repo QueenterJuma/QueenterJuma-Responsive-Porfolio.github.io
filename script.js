@@ -19,3 +19,15 @@ for (let i = 0; i < reviewPage.length; i += 1) {
     navigation.classList.toggle('open');
   });
 }
+
+/*form-validation*/
+const validError = document.getElementById('error');
+const form = document.getElementById(form);
+const email = document.getElementById();
+
+form.addEventListener('submit', (e) => {
+  if (email.ariaValueMax.toLowerCase() !== email.value) {
+    validError.style.display = 'block';
+    e.preventDefault();
+  }
+});
