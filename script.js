@@ -20,12 +20,12 @@ for (let i = 0; i < reviewPage.length; i += 1) {
   });
 }
 /* form-validation */
-const form = document.getElementById("form");
-form.addEventListener("submit", (e) => {
-  const validError = document.getElementById("validError");
+const form = document.getElementById('form');
+form.addEventListener('submit', (e) => {
+  const validError = document.getElementById('validError');
   const email = form.elements[1].value;
   if (email.toLowerCase() !== email) {
-    validError.style.display = "block";
+    validError.style.display = 'block';
     e.preventDefault();
   }
 });
