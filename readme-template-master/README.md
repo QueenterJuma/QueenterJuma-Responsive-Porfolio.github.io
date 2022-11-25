@@ -38,7 +38,7 @@
 
 # 📖 [Responsive Portfolio]
 
-> Create a Portfolio using a Mobile template from Figma, Build a hamburger menu which can be toggled
+> Create a Portfolio using a Mobile template from Figma, validate the content of the email field to be in lower case
 
 ## 🛠 Built With 
 Major language
