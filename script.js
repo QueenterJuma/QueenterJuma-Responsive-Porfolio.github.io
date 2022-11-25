@@ -70,6 +70,8 @@ const data = [
   },
 ];
 let container = document.getElementById("popup-card-container");
+
+
 container.innerHTML = `<div class='popup-card-header' id='popup-card-header'>
     <div class='popup-header-title-holder' id='popup-header-title-holder'>
     <h2 class='popup-title' id='popup_title'>Tonic</h2>
