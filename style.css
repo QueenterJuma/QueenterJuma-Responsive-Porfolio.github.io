@@ -525,27 +525,21 @@ button:active {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   padding: 0px;
-  gap: 12px;
   width: 236px;
   height: 32px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  
 }
 
 .popup-canopy-section li {
-  width: 88px;
-  height: 16px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  gap: 15px;
 }
 
 .popup-image {
@@ -614,17 +608,12 @@ button:active {
 .popup-divider {
   width: 311px;
   height: 17px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 
 .popup-action-frame {
   width: 311px;
   height: 56px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
+
 }
 
 .popup-right-btn {
@@ -639,42 +628,39 @@ button:active {
   height: 48px;
   left: 157px;
   bottom: 4px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
+.see {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 .popup-giticon {
-  width: 84px;
-height: 20px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #6070FF;
-flex: none;
-order: 0;
-flex-grow: 0;
-} 
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  right: 3px;
+  color: #6070ff;
+}
 
 .seelive-txt {
   width: 58px;
-height: 20px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #396DF2;
-flex: none;
-order: 0;
-flex-grow: 0;
+  height: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #396df2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .popup-left-btn {
@@ -689,8 +675,14 @@ flex-grow: 0;
   height: 48px;
   left: 9px;
   bottom: 4px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
+}
+
+.link_btn_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 @media (min-width: 489px) and (max-width: 767px) {
