@@ -19,9 +19,9 @@ for (let i = 0; i < reviewPage.length; i += 1) {
     navigation.classList.toggle('open');
   });
 }
-/*form-validation*/
+/* form-validation */
 const form = document.getElementById('form');
-const email = form.elements[1].value
+const email = form.elements[1].value;
 form.addEventListener('submit', (e) => {
   const validError = document.getElementById('validError');
   if (email.toLowerCase() !== email.value) {
