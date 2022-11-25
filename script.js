@@ -19,10 +19,9 @@ for (let i = 0; i < reviewPage.length; i += 1) {
     navigation.classList.toggle('open');
   });
 }
-
-/*form-validation*/
+/* form-validation */
 const form = document.getElementById('form');
-const email = form.elements[1].value
+const email = form.elements[1].value;
 form.addEventListener('submit', (e) => {
   const validError = document.getElementById('validError');
   if (email.toLowerCase() !== email.value) {
@@ -30,8 +29,7 @@ form.addEventListener('submit', (e) => {
     validError.style.display = 'block';
   }
 });
-
-/*Local storage */
+/* Local storage */
 const Name = document.querySelector('#name');
 const Email = document.querySelector('#email');
 const Text = document.querySelector('#text');
@@ -43,9 +41,6 @@ form.addEventListener('submit', () => {
   };
   localStorage.setItem('data', JSON.stringify(Data));
 });
-
-
-
 const AutoFiller = localStorage.getItem(data);
 if (AutoFiller) {
   const DataStored = JSON.parse(localStorage.getItem('data'));
