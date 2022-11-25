@@ -12,6 +12,7 @@ toggleMenu.addEventListener('click', () => {
   navigation.classList.toggle('open');
   return menuOpen;
 });
+
 const reviewPage = document.querySelectorAll('.nav-item');
 for (let i = 0; i < reviewPage.length; i += 1) {
   reviewPage[i].addEventListener('click', () => {
