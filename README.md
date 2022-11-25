@@ -38,8 +38,9 @@
 
 # 📖 [Responsive Portfolio]
 
-> Create a Portfolio using a Mobile template from Figma, Build a hamburger menu which can be toggled
 
+
+> Create a Portfolio using a Mobile template from Figma, preserve data in the browser
 ## 🛠 Built With 
 Major language
 -HTML
