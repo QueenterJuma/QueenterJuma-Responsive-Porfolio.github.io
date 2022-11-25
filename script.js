@@ -21,6 +21,7 @@ for (let i = 0; i < reviewPage.length; i += 1) {
 }
 
 /*popup-window*/
+
 const data = [
   {
     id: 'popup - card - container',
@@ -70,7 +71,7 @@ const data = [
     see_source: '#',
   },
 ];
-let container = document.getElementById();
+let container = document.getElementById('top_nav');
 container.innerHTML = ``;
 
 /*${data[0].popup_description}  */
