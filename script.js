@@ -20,13 +20,13 @@ for (let i = 0; i < reviewPage.length; i += 1) {
   });
 }
 /* form-validation */
-const form = document.getElementById('form');
-const email = form.elements[1].value;
-form.addEventListener('submit', (e) => {
-  const validError = document.getElementById('validError');
-  if (email.toLowerCase() !== email.value) {
+const form = document.getElementById("form");
+form.addEventListener("submit", (e) => {
+  const validError = document.getElementById("validError");
+  const email = form.elements[1].value;
+  if (email.toLowerCase() !== email) {
+    validError.style.display = "block";
     e.preventDefault();
-    validError.style.display = 'block';
   }
 });
 /* Local storage */
@@ -39,15 +39,15 @@ form.addEventListener('submit', () => {
     Email: EmailData.value,
     Text: TextData.value,
   };
-  localStorage.setItem('Data', JSON.stringify(Data));
+  localStorage.setItem('data', JSON.stringify(Data));
 });
-const AutoFiller = localStorage.setItem(Data);
+const AutoFiller = localStorage.getItem(data);
 if (AutoFiller) {
-  const DataStored = JSON.parse(localStorage.setItem('Data'));
+  const DataStored = JSON.parse(localStorage.getItem('data'));
   NameData.value = DataStored.Name;
   EmailData.value = DataStored.Email;
   TextData.value = DataStored.Text;
 }
 window.onload = () => {
-persistData();
+  persistData();
 };
