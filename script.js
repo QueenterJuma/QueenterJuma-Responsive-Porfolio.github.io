@@ -30,17 +30,18 @@ form.addEventListener('submit', (e) => {
   }
 });
 /* Local storage */
-const Name = document.querySelector('#name');
-const Email = document.querySelector('#email');
-const Text = document.querySelector('#text');
-function storage() {
-  const Data = {
-    Name: form.elements[0].value,
-    Email: form.elements[1].value,
-    Text: form.elements[2].value,
-  };
-  localStorage.setItem('data', JSON.stringify(Data));
+function storage(arg) {
+  if (arg !== "local") {
+    console.log(arg);
+    const Data = {
+      Name: form.elements[0].value,
+      Email: form.elements[1].value,
+      Text: form.elements[2].value,
+    };
+    localStorage.setItem('data', JSON.stringify(Data));
+  } else return null;
 }
+storage('local');
 const DataStored = JSON.parse(localStorage.getItem('data'));
 form.elements[0].value = DataStored.Name;
 form.elements[1].value = DataStored.Email;
