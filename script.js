@@ -31,15 +31,15 @@ form.addEventListener('submit', (e) => {
 });
 /* Local storage */
 function storage(arg) {
-  if (arg !== "local") {
-    console.log(arg);
+  if (arg !== 'local') {
     const Data = {
       Name: form.elements[0].value,
       Email: form.elements[1].value,
       Text: form.elements[2].value,
     };
     localStorage.setItem('data', JSON.stringify(Data));
-  } else return null;
+  } else return false;
+  return true;
 }
 storage('local');
 const DataStored = JSON.parse(localStorage.getItem('data'));
