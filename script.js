@@ -39,12 +39,15 @@ form.addEventListener('submit', () => {
     Email: EmailData.value,
     Text: TextData.value,
   };
-  localStorage.setItem('data', JSON.stringify(Data));
+  localStorage.setItem('Data', JSON.stringify(Data));
 });
-const AutoFiller = localStorage.getItem(data);
+const AutoFiller = localStorage.setItem(Data);
 if (AutoFiller) {
-  const DataStored = JSON.parse(localStorage.getItem('data'));
+  const DataStored = JSON.parse(localStorage.setItem('Data'));
   NameData.value = DataStored.Name;
   EmailData.value = DataStored.Email;
   TextData.value = DataStored.Text;
 }
+window.onload = () => {
+persistData();
+};
