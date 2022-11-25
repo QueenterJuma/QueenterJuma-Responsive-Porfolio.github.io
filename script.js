@@ -31,7 +31,6 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-
 /*Local storage */
 const Name = document.querySelector('#name');
 const Email = document.querySelector('#email');
@@ -44,6 +43,8 @@ form.addEventListener('submit', () => {
   };
   localStorage.setItem('data', JSON.stringify(Data));
 });
+
+
 
 const AutoFiller = localStorage.getItem(data);
 if (AutoFiller) {
