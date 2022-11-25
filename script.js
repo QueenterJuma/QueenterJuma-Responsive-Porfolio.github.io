@@ -21,11 +21,11 @@ for (let i = 0; i < reviewPage.length; i += 1) {
 }
 /* form-validation */
 const form = document.getElementById('form');
-const email = form.elements[1].value;
 form.addEventListener('submit', (e) => {
   const validError = document.getElementById('validError');
-  if (email.toLowerCase() !== email.value) {
-    e.preventDefault();
+  const email = form.elements[1].value;
+  if (email.toLowerCase() !== email) {
     validError.style.display = 'block';
+    e.preventDefault();
   }
 });
