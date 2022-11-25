@@ -33,21 +33,15 @@ form.addEventListener('submit', (e) => {
 const Name = document.querySelector('#name');
 const Email = document.querySelector('#email');
 const Text = document.querySelector('#text');
-form.addEventListener('submit', () => {
+function storage() {
   const Data = {
-    Name: NameData.value,
-    Email: EmailData.value,
-    Text: TextData.value,
+    Name: form.elements[0].value,
+    Email: form.elements[1].value,
+    Text: form.elements[2].value,
   };
   localStorage.setItem('data', JSON.stringify(Data));
-});
-const AutoFiller = localStorage.getItem(data);
-if (AutoFiller) {
-  const DataStored = JSON.parse(localStorage.getItem('data'));
-  NameData.value = DataStored.Name;
-  EmailData.value = DataStored.Email;
-  TextData.value = DataStored.Text;
 }
-window.onload = () => {
-  persistData();
-};
+const DataStored = JSON.parse(localStorage.getItem('data'));
+form.elements[0].value = DataStored.Name;
+form.elements[1].value = DataStored.Email;
+form.elements[2].value = DataStored.Text;
