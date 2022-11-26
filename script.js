@@ -29,3 +29,21 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+/* Local storage */
+function storage(arg) {
+  if (arg !== 'local') {
+    const Data = {
+      Name: form.elements[0].value,
+      Email: form.elements[1].value,
+      Text: form.elements[2].value,
+    };
+    localStorage.setItem('data', JSON.stringify(Data));
+  } else return false;
+  return true;
+}
+storage('local');
+
+const DataStored = JSON.parse(localStorage.getItem('data'));
+form.elements[0].value = DataStored.Name;
+form.elements[1].value = DataStored.Email;
+form.elements[2].value = DataStored.Text;
