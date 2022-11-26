@@ -79,7 +79,7 @@ const data = [
     see_source: "#",
   },
 ];
-let container = document.getElementById("popup-card-container");
+/*let container = document.getElementById("popup-card-container");
 
 container.innerHTML = `<div class='popup-card-header' id='popup-card-header'>
     <div class='popup-header-title-holder' id='popup-header-title-holder'>
@@ -115,7 +115,7 @@ container.innerHTML = `<div class='popup-card-header' id='popup-card-header'>
       <a class='popup-giticon' id='git-icon'href='#'><i class='fa-brands fa-github'></i></a>
       </div>
     </div>
-    </div>`;
+    </div>`*/
 
 for (key in data) {
   document.getElementById(
