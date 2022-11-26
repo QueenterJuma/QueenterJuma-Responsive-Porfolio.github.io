@@ -1,5 +1,5 @@
-const toggleMenu = document.querySelector('.toggle-menu');
-const navigation = document.querySelector('.navigation');
+const toggleMenu = document.querySelector(".toggle-menu");
+const navigation = document.querySelector(".navigation");
 let counterImage = 0;
 let menuOpen = false;
 
@@ -7,66 +7,65 @@ let menuOpen = false;
 
 const data = [
   {
-    id: 'modal',
-    popup_title: 'Tonic',
-    popup_canopy_section: ['CANOPY', 'Back End Dev', 2015],
-    popup_image1: 'dec3.png',
+    id: "modal",
+    popup_title: "Tonic",
+    popup_canopy_section: ["CANOPY", "Back End Dev", 2015],
+    popup_image1: "dec3.png",
     popup_desc1:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
     popup_description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    popup_tags: ['html', 'css', 'javascript'],
-    see_live: '#',
-    see_source: '#',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    popup_tags: ["html", "css", "javascript"],
+    see_live: "#",
+    see_source: "#",
   },
 
   {
-    id: 'modal',
-    popup_title: 'Multi-Post Stories',
-    popup_canopy_section: ['CANOPY', 'Back End Dev', 2015],
-    popup_image1: 'dec2.png',
+    id: "modal",
+    popup_title: "Multi-Post Stories",
+    popup_canopy_section: ["CANOPY", "Back End Dev", 2015],
+    popup_image1: "dec2.png",
     popup_desc1:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
     popup_description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    popup_tags: ['html', 'css', 'javascript'],
-    see_live: '#',
-    see_source: '#',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    popup_tags: ["html", "css", "javascript"],
+    see_live: "#",
+    see_source: "#",
   },
 
   {
-    id: 'modal',
-    popup_title: 'Tonic',
-    popup_canopy_section: ['CANOPY', 'Back End Dev', 2015],
-    popup_image1: 'dec1.png',
+    id: "modal",
+    popup_title: "Tonic",
+    popup_canopy_section: ["CANOPY", "Back End Dev", 2015],
+    popup_image1: "dec1.png",
     popup_desc1:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
     popup_description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    popup_tags: ['html', 'css', 'javascript'],
-    see_live: '#',
-    see_source: '#',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    popup_tags: ["html", "css", "javascript"],
+    see_live: "#",
+    see_source: "#",
   },
 
   {
-    id: 'modal',
-    popup_title: 'Multi-Post Stories',
-    popup_canopy_section: ['CANOPY', 'Back End Dev', 2015],
-    popup_image1: 'dec4.png',
+    id: "modal",
+    popup_title: "Multi-Post Stories",
+    popup_canopy_section: ["CANOPY", "Back End Dev", 2015],
+    popup_image1: "dec4.png",
     popup_desc1:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
     popup_description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    popup_tags: ['html', 'css', 'javascript'],
-    see_live: '#',
-    see_source: '#',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    popup_tags: ["html", "css", "javascript"],
+    see_live: "#",
+    see_source: "#",
   },
 ];
 
 for (key in data) {
-  
   document.getElementById(
-    'portfolio'
+    "portfolio"
   ).innerHTML += `<div class="d-flex-column card one">
       <div class="plc-img${counterImage}  images" > 
       </div>
@@ -91,11 +90,11 @@ for (key in data) {
   counterImage += 1;
 }
 const openModal = (portfolio) => {
-  document.getElementById('top_nav').style.filter = 'blur(5px)';
-  document.getElementById('main-cont').style.filter = 'blur(5px)';
-  document.getElementById('modal').style.display = 'block';
+  document.getElementById("top_nav").style.filter = "blur(5px)";
+  document.getElementById("main-cont").style.filter = "blur(5px)";
+  document.getElementById("modal").style.display = "block";
   document.getElementById(
-    'modal'
+    "modal"
   ).innerHTML = ` <div class='popup-card-header' id='popup-card-header'>
         <div class='popup-header-title-holder' id='popup-header-title-holder'>
         <h2 class='popup-title' id='popup_title'>Tonic</h2>
@@ -140,8 +139,8 @@ const openModal = (portfolio) => {
 };
 
 const closeModal = () => {
-  document.getElementById('modal').style.display = 'none';
-  document.getElementById('top_nav').style.filter = 'blur(0px)';
-  document.getElementById('main-cont').style.filter = 'blur(0px)';
+  document.getElementById("modal").style.display = "none";
+  document.getElementById("top_nav").style.filter = "blur(0px)";
+  document.getElementById("main-cont").style.filter = "blur(0px)";
 };
 
