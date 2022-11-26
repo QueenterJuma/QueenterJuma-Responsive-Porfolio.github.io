@@ -118,6 +118,20 @@
   gap: 15px;
 }
 
+.popup-tags li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 89px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
 .navigation ul li a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -252,20 +266,6 @@
 
 .handles .icon ul {
   display: flex;
-}
-
-.popup-tags li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 89px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 
 .handles .icon ul li {
@@ -487,20 +487,20 @@ button:active {
   height: 713px;
   left: calc(50% - 343px / 2);
   top: 60px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   z-index: 1;
-  display: none;
 }
+
 body {
   z-index: -1;
 }
+
 .popup-card-header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
   width: 311px;
   height: 84px;
@@ -513,7 +513,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   gap: 12px;
   width: 311px;
   height: 40px;
@@ -937,5 +936,4 @@ body {
     margin: 0 18em;
     width: 600px;
   }
-
 }
