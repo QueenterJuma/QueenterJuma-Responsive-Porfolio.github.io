@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   
-  <body>
-    
-    <header class="top-nav">
+  <body >
+    <!--modal-popup-->
+    <header class="top-nav" id="top_nav">
       <div class="logo">
         <a href="index.html">Queenter</a>
       </div>
@@ -30,7 +30,7 @@
         <div class="menu"></div>
       </div>
     </header>
-    <section class="page-content">
+    <section class="page-content" id="main-cont" >
     
     <section class="hero">
       <div class="description real-me">
@@ -73,9 +73,10 @@
         </div>
       </div>
     </section>
+    <!--work section-->
 
     <section class="cards" id="portfolio">
-      <div class="d-flex-column card one">
+  <!--<div class="d-flex-column card one">
       <div class="plc-img1 images" ></div>
       <div class="card-text">
         <h3>Tonic</h3>
@@ -154,9 +155,10 @@
         </ul>
         <button>See Project</button>
       </div>
-    </div>
+    </div>-->
     </section>
 
+    <!--About Me-->
     <section class="about" id="about" >
       <div class="info">
         <div class="me">
@@ -225,7 +227,7 @@
                   </div>
                 </div>
               </section>
-
+              <!--cantact-->
     <section class="f-contact" id="contact">
       <div class="f-container">
         <h2>Contact me</h2>
@@ -244,7 +246,12 @@
       </div>
     </section>
     </section>
-      
+
+     <!--popup section-->
+   <div id="modal" onclick="closeModal()">
+         
+      </div>
+
     <script src="script.js"></script>
   </body>
 </html>
