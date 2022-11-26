@@ -443,7 +443,7 @@ button:active {
   margin-left: -190px;
 }
 
-#popup-card-container {
+#modal {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;

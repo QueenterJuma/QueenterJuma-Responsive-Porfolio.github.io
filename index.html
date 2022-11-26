@@ -76,9 +76,86 @@
     <!--work section-->
 
     <section class="cards" id="portfolio">
-      
+  <!--<div class="d-flex-column card one">
+      <div class="plc-img1 images" ></div>
+      <div class="card-text">
+        <h3>Tonic</h3>
+        <ul class='prot'>
+          <li><a href="">CANOPY</a></li>
+          <li><div class="dot"></div></li>
+          <li><a href="">Back End Dev</a></li>
+          <div class="dot"></div>
+          <li><a href="">2015</a></li>
+        </ul>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="lang">
+          <li><a href="">htlm</a></li>
+          <li><a href="">css</a></li>
+          <li><a href="">javascript</a></li>
+        </ul>
+        <button>See Project</button>
+      </div>
     </div>
-  
+    <div class="d-flex-column card two">
+      <div class="plc-img2 images"></div>
+      <div class="card-text">
+        <h3>Multipost Stories</h3>
+        <ul class="prot">
+          <li><a href="">CANOPY</a></li>
+          <li><div class="dot"></div></li>
+          <li><a href="">Back End Dev</a></li>
+          <div class="dot"></div>
+          <li><a href="">2015</a></li>
+        </ul>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="lang">
+          <li><a href="">html</a></li>
+          <li><a href="">css</a></li>
+          <li><a href="">javascript</a></li>
+        </ul>
+        <button>See project</button>
+      </div>
+    </div>
+    <div class="d-flex-column card three">
+      <div class="plc-img3 images"></div>
+      <div class="card-text">
+        <h3>Tonic</h3>
+        <ul class="prot">
+          <li><a href="">CANOPY</a></li>
+          <li><div class="dot"></div></li>
+          <li><a href="">Back End Dev</a></li>
+          <div class="dot"></div>
+          <li><a href="">2015</a></li>
+        </ul>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="lang">
+          <li><a href="">html</a></li>
+          <li><a href="">css</a></li>
+          <li><a href="">javascript</a></li>
+        </ul>
+        <button>See Project</button>
+      </div>
+    </div>
+    <div class="d-flex-column card four">
+      <div class="plc-img4 images"></div>
+      <div class="card-text">
+        <h3>Multipose Stories</h3>
+        <ul class="prot">
+          <li><a href="">CANOPY</a></li>
+          <li><div class="dot"></div></li>
+          <li><a href="">Back End Dev</a></li>
+          <div class="dot"></div>
+          <li><a href="">2015</a></li>
+        </ul>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <ul class="lang">
+          <li><a href="">html</a></li>
+          <li><a href="">css</a></li>
+          <li><a href="">javascript</a></li>
+        </ul>
+        <button>See Project</button>
+      </div>
+    </div>-->
     </section>
 
     <!--About Me-->
@@ -170,8 +247,47 @@
     </section>
 
      <!--popup section-->
-    <div id="popup-card-container">
-      
+   <div id="modal" onclick="closeModal()">
+          <div class='popup-card-header' id='popup-card-header'>
+        <div class='popup-header-title-holder' id='popup-header-title-holder'>
+        <h2 class='popup-title' id='popup_title'>Tonic</h2>
+        <div class='popup-btn-span'>
+        <img src='./image/Icon_Cancel.png' alt='cancel popup' class='cancel-popup' onclick="closeModal()">
+        </div>
+        </div>
+        <ul class='popup-canopy-section' id='popup_canopy_section'>
+        <li>CANOPY</li>
+        <li><img src="./image/Counter.png" alt="counter dot"></li>
+        <li>Back End Dev</li>
+        <li><img src="./image/Counter.png" alt="counter dot"></li>
+        <li>2015</li>
+        </ul>
+        </div>
+        <img src='./image/popup_image.png' alt='popup image' class='popup-image' id='popup_image1'>
+        <div class='popup-left-block'>
+        <p class='popup-description' id='popup_description'>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+        
+        </p>
+        <ul class='popup-tags' id='popup_tags'>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+        </ul>
+        <div class='popup-divider'>
+        <div class='popup-action-frame' id='popbtn'>
+          <span class='link_btn_container'>
+          <button class='popup-left-btn' id='see_live'>See live <a class='popup-giticon' id='git-icon'href='#'><img src='./image/demo_icon.png' alt='demo-icon' /></a></button>
+          
+          </span>
+          <span class='link_btn_container'>
+          <button class='popup-right-btn' id='see_source'><p class="see">See source</p> <a class='popup-giticon' id='git-icon'href='#'><i class='fa-brands fa-github'></i></a></button>
+          
+          </span>
+        </div>
+        </div>
+
+        </div>
       </div>
 
     <script src="script.js"></script>
