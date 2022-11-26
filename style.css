@@ -429,6 +429,14 @@ button:active {
   width: 327px;
 }
 
+.valid-error {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #900;
+  display: none;
+}
+
 .f-contact textarea {
   border: 1px solid #cfd8cf;
   border-radius: 8px;
@@ -932,23 +940,5 @@ body {
     margin: 0 18em;
     width: 600px;
   }
+}
 
-  #modal {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  gap: 12px;
-  position: absolute;
-  width: 343px;
-  height: 713px;
-  left: calc(50% - 343px / 2);
-  top: 60px;
-  background: #ffffff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  z-index: 1;
-  display: none;
-}
-}
