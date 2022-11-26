@@ -108,6 +108,16 @@
   display: flex;
 }
 
+.popup-canopy-section li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  gap: 15px;
+}
+
 .navigation ul li a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -242,6 +252,20 @@
 
 .handles .icon ul {
   display: flex;
+}
+
+.popup-tags li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 89px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 .handles .icon ul li {
@@ -501,7 +525,7 @@ body {
 .popup-title {
   width: 259px;
   height: 36px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -538,19 +562,8 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0px;
   width: 236px;
   height: 32px;
-}
-
-.popup-canopy-section li {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-  gap: 15px;
 }
 
 .popup-image {
@@ -566,7 +579,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
   width: 311px;
   height: 353px;
@@ -578,7 +590,7 @@ body {
 .popup-description {
   width: 311px;
   height: 220px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -593,26 +605,11 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   gap: 8px;
   width: 203px;
   height: 24px;
   flex: none;
   order: 1;
-  flex-grow: 0;
-}
-
-.popup-tags li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 89px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 2;
   flex-grow: 0;
 }
 
@@ -659,7 +656,7 @@ body {
 .seelive-txt {
   width: 58px;
   height: 20px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -940,5 +937,5 @@ body {
     margin: 0 18em;
     width: 600px;
   }
-}
 
+}
