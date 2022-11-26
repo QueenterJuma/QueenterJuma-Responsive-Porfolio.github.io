@@ -42,6 +42,7 @@ function storage(arg) {
   return true;
 }
 storage('local');
+
 const DataStored = JSON.parse(localStorage.getItem('data'));
 form.elements[0].value = DataStored.Name;
 form.elements[1].value = DataStored.Email;
