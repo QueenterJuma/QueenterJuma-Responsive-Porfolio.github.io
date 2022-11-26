@@ -1,9 +1,6 @@
-const toggleMenu = document.querySelector('.toggle-menu');
-const navigation = document.querySelector('.navigation');
 let counterImage = 0;
-let menuOpen = false;
 
-/*popup-window*/
+/* popup-window */
 
 const data = [
   {
@@ -63,9 +60,9 @@ const data = [
   },
 ];
 
-for (let key in data) {
+for (const key in data) {
   document.getElementById(
-    'portfolio'
+    'portfolio',
   ).innerHTML += `<div class="d-flex-column card one">
       <div class="plc-img${counterImage}  images" > 
       </div>
@@ -94,7 +91,7 @@ const openModal = (portfolio) => {
   document.getElementById('main-cont').style.filter = 'blur(5px)';
   document.getElementById('modal').style.display = 'block';
   document.getElementById(
-    'modal'
+    'modal',
   ).innerHTML = ` <div class='popup-card-header' id='popup-card-header'>
         <div class='popup-header-title-holder' id='popup-header-title-holder'>
         <h2 class='popup-title' id='popup_title'>Tonic</h2>
