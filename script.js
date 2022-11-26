@@ -60,7 +60,7 @@ const data = [
   },
 ];
 
-for (const key in data) {
+Object.keys(data).forEach((key) => {
   document.getElementById(
     'portfolio',
   ).innerHTML += `<div class="d-flex-column card one">
@@ -85,7 +85,8 @@ for (const key in data) {
       </div>
     </div>`;
   counterImage += 1;
-}
+});
+
 const openModal = (portfolio) => {
   document.getElementById('top_nav').style.filter = 'blur(5px)';
   document.getElementById('main-cont').style.filter = 'blur(5px)';
@@ -140,3 +141,7 @@ const closeModal = () => {
   document.getElementById('top_nav').style.filter = 'blur(0px)';
   document.getElementById('main-cont').style.filter = 'blur(0px)';
 };
+if (document.getElementById('modal').elements[1].value === true) {
+  closeModal();
+  openModal();
+}
