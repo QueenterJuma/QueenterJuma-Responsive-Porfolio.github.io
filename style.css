@@ -339,7 +339,7 @@ button:active {
   background-color: #2230d2;
 }
 
-.plc-img1 {
+.plc-img0 {
   background-image: url(./image/pic1.png);
   background-repeat: no-repeat;
   width: 100%;
@@ -347,7 +347,7 @@ button:active {
   background-size: 100%;
 }
 
-.plc-img2 {
+.plc-img1 {
   background-image: url(./image/pic2.png);
   background-repeat: no-repeat;
   width: 100%;
@@ -355,7 +355,7 @@ button:active {
   background-size: 100%;
 }
 
-.plc-img3 {
+.plc-img2 {
   background-image: url(./image/pic3.png);
   background-repeat: no-repeat;
   width: 100%;
@@ -363,7 +363,7 @@ button:active {
   background-size: 100%;
 }
 
-.plc-img4 {
+.plc-img3 {
   background-image: url(./image/pic4.png);
   background-repeat: no-repeat;
   width: 100%;
@@ -458,8 +458,12 @@ button:active {
   background: #ffffff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  z-index: 1;
+  display: none;
 }
-
+body {
+  z-index: -1;
+}
 .popup-card-header {
   display: flex;
   flex-direction: column;
@@ -529,7 +533,6 @@ button:active {
   padding: 0px;
   width: 236px;
   height: 32px;
-  
 }
 
 .popup-canopy-section li {
@@ -613,7 +616,6 @@ button:active {
 .popup-action-frame {
   width: 311px;
   height: 56px;
-
 }
 
 .popup-right-btn {
@@ -703,7 +705,7 @@ button:active {
     background-image: url(./image/dec2.png);
   }
 
-  .plc-img {
+  .plc-img3 {
     background-image: url(./image/dec3.png);
   }
 
@@ -930,4 +932,23 @@ button:active {
     margin: 0 18em;
     width: 600px;
   }
+
+  #modal {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  position: absolute;
+  width: 343px;
+  height: 713px;
+  left: calc(50% - 343px / 2);
+  top: 60px;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  z-index: 1;
+  display: none;
+}
 }
