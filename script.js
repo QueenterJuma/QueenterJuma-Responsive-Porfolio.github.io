@@ -90,7 +90,6 @@ for (key in data) {
     </div>`;
   counterImage += 1;
 }
-
 const openModal = (portfolio) => {
   document.getElementById('top_nav').style.filter = 'blur(5px)';
   document.getElementById('main-cont').style.filter = 'blur(5px)';
@@ -145,3 +144,4 @@ const closeModal = () => {
   document.getElementById('top_nav').style.filter = 'blur(0px)';
   document.getElementById('main-cont').style.filter = 'blur(0px)';
 };
+
